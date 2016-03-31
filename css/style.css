@@ -1,6 +1,17 @@
 body {
-	background-color: LightGray;
+    background-color: LightGray;
 }
+
 div {
-	border: 1px solid Chocolate;
+    border: 1px solid Chocolate;
+  }
+
+/* Navigation Stuff */
+.top-navigation {
+	background-color: #ffffff;
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
 }
