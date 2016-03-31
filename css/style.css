@@ -9,6 +9,7 @@ div {
 /* Navigation Stuff */
 .top-navigation {
 	background-color: #ffffff;
+	display: inline-block;
 }
 .top-navigation > .content {
 	width: 970px;
