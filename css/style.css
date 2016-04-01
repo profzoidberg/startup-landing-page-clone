@@ -53,6 +53,28 @@ div {
 .introduction {
 	background-image: url("../images/first-background.jpg");
 	height: 735px;
-	width: 1600px;
+	width: 1000px;
 }
 
+.introduction .content {
+	margin-top: 300px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	color: white;
+}
+
+button { 
+	background-color: #f15a29;
+	color: white;
+	text-algin: center;
+	border-color: #f15a29;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	border-radius: 4px ;
+	padding: 1em 1.75em;
+	font-size: 0.85em;
+	margin: 0px auto;
+	display: block;
+}
