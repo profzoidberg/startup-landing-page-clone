@@ -49,3 +49,10 @@ div {
 .logo {
 	height: 70px;
 }
+/* Introduction Stuff */
+.introduction {
+	background-image: url("../images/first-background.jpg");
+	height: 735px;
+	width: 1600px;
+}
+
