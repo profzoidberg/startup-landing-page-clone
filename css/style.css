@@ -61,7 +61,6 @@ div {
     color: white;
     text-align: center;
     font-weight: 300;
-    margin-bottom: 0.5rem;
 }
 button { 
 	text-shadow: none;
@@ -77,4 +76,16 @@ button {
 button:hover{
 	cursor: pointer;
 	background-color: ;
+}
+/* Icon stuff */
+.cases {
+    text-align: center;
+}
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
 }
