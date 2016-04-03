@@ -8,6 +8,7 @@ body {
     background-color: LightGray;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
 }
 div {
     border: 1px solid Chocolate;
@@ -20,6 +21,9 @@ div {
 /* Navigation Stuff */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .top-navigation .links {
     float: right;
@@ -79,9 +83,9 @@ button:hover{
 	cursor: pointer;
 	background-color: ;
 }
-/* Icon stuff */
+/* Device Stuff */
 .cases {
-    background-color: white;
+    background-color: #fff;
     text-align: center;
     padding-top: 5em;
     padding-bottom: 5em;
@@ -97,9 +101,40 @@ button:hover{
 }
 .cases .devices h3{
     font-weight: 300;
+    font-size: 1.5em;
 }
 .cases .content h2 {
     font-size: 2.5em;
     font-weight: 300;
     padding-bottom: 1em;
+}
+/* Footer Stuff */
+.social {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 6em;
+}
+.social h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+    padding-left: 2.75em;
+}
+.social .icons li{
+    box-sizing: border-box;
+    display: inline-block;
+    list-style: none;
+    padding: 0 0.25em;
+}
+.social .icons li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.social .icons i {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: 1px solid #d9d9d9;
+    color: #000080;
+    padding: 10px 4px 0 4px;
 }
