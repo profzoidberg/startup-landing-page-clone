@@ -81,13 +81,25 @@ button:hover{
 }
 /* Icon stuff */
 .cases {
+    background-color: white;
     text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 .cases .devices {
-    width: 33.3333333%;
+    width: auto;
     display: inline-block;
     /* styles to assist with debugging */
     border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
+    margin: 0 3em;
+}
+.cases .devices h3{
+    font-weight: 300;
+}
+.cases .content h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+    padding-bottom: 1em;
 }
