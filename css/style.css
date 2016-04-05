@@ -5,14 +5,10 @@ html {
   box-sizing: inherit;
 }
 body {
-    background-color: LightGray;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     margin: 0 auto;
 }
-div {
-    border: 1px solid Chocolate;
-  }
 .content {
     width: 970px;
     padding: 0px 15px;
@@ -24,6 +20,8 @@ div {
     position: fixed;
     width: 100%;
     z-index: 9999;
+    border-bottom: 1px solid;
+    border-bottom-color: #a9a9a9
 }
 .top-navigation .links {
     float: right;
@@ -93,14 +91,12 @@ button:hover{
 .cases .devices {
     width: auto;
     display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
     margin: 0 3em;
 }
 .cases .devices h3{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5em;
 }
 .cases .content h2 {
@@ -113,10 +109,12 @@ button:hover{
     background-color: #fff;
     text-align: center;
     padding-bottom: 6em;
+    border-top: 1px solid;
+    border-top-color: #a9a9a9
 }
 .social h2 {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     color: black;
     padding-left: 2.75em;
 }
@@ -136,11 +134,19 @@ button:hover{
     cursor: pointer;
     color: #333333;
 }
+.social .icons .fa-twitter {
+    color:#55acee;
+}
+.social .icons .fa-facebook { 
+    color: #4c66a4;
+}
+.social .icons .fa-instagram {
+    color:#3f729b;
+}
 .social .icons i {
     height: 40px;
     width: 40px;
     border-radius: 100%;
     border: 1px solid #d9d9d9;
-    color: #000080;
     padding: 10px 4px 0 4px;
 }
