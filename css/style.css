@@ -43,16 +43,16 @@ body {
     color: #333333;
 }
 .logo {
-	height: 70px;
+    height: 70px;
 }
 /* Introduction Stuff */
 .introduction {
-	background-image: url("../images/first-background.jpg");
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 45.938rem;
-	overflow: auto;
+    background-image: url("../images/first-background.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
 }
 .introduction h1 {
     margin-top: 17.5rem;
@@ -61,25 +61,25 @@ body {
 .introduction .content h1{
     margin-bottom: 0;
 }
-.introduction h1, .introduction h3 {
+.introduction h1, .introduction h2 {
     color: white;
     text-align: center;
     font-weight: 300;
 }
 button { 
-	text-shadow: none;
-	border-style: none;
-	border-radius: 4px;
-	padding: 1rem 1.5rem;
-	display: block;
-	background-color: #f15a29;
-	color: white;
-	font-size: 1rem;
-	margin: 0 auto;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    display: block;
+    background-color: #f15a29;
+    color: white;
+    font-size: 1rem;
+    margin: 0 auto;
 }
 button:hover{
-	cursor: pointer;
-	background-color: ;
+    cursor: pointer;
+    background-color: ;
 }
 /* Device Stuff */
 .cases {
